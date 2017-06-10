@@ -7,9 +7,9 @@
   "author": "Levi Segal <segal.levi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "update-theme": "cd exampleSite/themes/hugo-photo-gallery && git pull origin master && git pull origin develop && git checkout develop",
-    "server": "cd exampleSite && hugo server -t hugo-photo-gallery --buildDrafts",
-    "publish": "git push origin master --follow-tags && git push origin develop --follow-tags"
+    "theme": "cd exampleSite/themes/hugo-photo-gallery && git pull origin master && git pull origin develop && git checkout develop",
+    "server": "cd exampleSite && hugo server -t live --buildDrafts",
+    "push": "git push origin master --follow-tags && git push origin develop --follow-tags"
   },
   "devDependencies": {
 	"eslint": "^3.19.0",

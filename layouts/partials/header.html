@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-photo-gallery">
+  {{ .Hugo.Generator }}
+  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.author.who_am_i }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="{{ "/img/favicon.ico" | relURL }}">
+  <link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <title>"{{ .Site.Params.author.name }}"</title>
+
+</head>
