@@ -6,9 +6,13 @@
   "repository": "git@github.com:levisegal/photo-gallery.git",
   "author": "Levi Segal <segal.levi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "update-theme": "cd exampleSite/themes/hugo-photo-gallery && git pull origin master && git pull origin develop",
+    "server": "cd exampleSite && hugo server -t hugo-photo-gallery --buildDrafts"
+  },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.3.0"
+	"eslint": "^3.19.0",
+	"eslint-config-airbnb-base": "^11.2.0",
+	"eslint-plugin-import": "^2.3.0"
   }
 }
