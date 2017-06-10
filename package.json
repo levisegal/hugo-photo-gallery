@@ -1,0 +1,14 @@
+{
+  "name": "hugo-photo-gallery",
+  "version": "0.0.1",
+  "description": "Photo Gallery theme for websites built with hugo (http://gohugo.io). Edit",
+  "main": "index.js",
+  "repository": "git@github.com:levisegal/photo-gallery.git",
+  "author": "Levi Segal <segal.levi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
